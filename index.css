@@ -89,10 +89,10 @@ nav a {
     border-radius: 10px;
 }
 
-/* Media queries para diferentes tamaños de pantalla */
 
-@media (min-width: 376px) and (max-width: 1023px) {
-    /* Estilos para tabletas y dispositivos pequeños */
+
+@media (min-width: 375px)  {
+    
     .logo img {
         height: 50px;
     }
@@ -101,15 +101,4 @@ nav a {
     }
 }
 
-@media (min-width: 1024px) {
-    /* Estilos para dispositivos de escritorio */
-    .logo img {
-        height: 60px;
-    }
-    .search {
-        margin-right: 40px;
-    }
-    .search input {
-        width: 250px;
-    }
-}
+
